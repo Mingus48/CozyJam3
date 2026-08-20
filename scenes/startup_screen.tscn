@@ -1,0 +1,9 @@
+[gd_scene format=3 uid="uid://d1vm0tq3pjout"]
+
+[ext_resource type="Texture2D" uid="uid://bqqriil7toyhe" path="res://TinyPixelShop_Florassence/ShopBG_1920x1080px.png" id="1_jamkg"]
+
+[node name="StartupScreen" type="Node2D" unique_id=2119844241]
+
+[node name="ShopBg1920x1080Px" type="Sprite2D" parent="." unique_id=847478510]
+position = Vector2(960, 540)
+texture = ExtResource("1_jamkg")

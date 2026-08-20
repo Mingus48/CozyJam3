@@ -1,0 +1,37 @@
+[gd_scene format=3 uid="uid://dndycapexsxkf"]
+
+[ext_resource type="Texture2D" uid="uid://o4iotn7uig6b" path="res://TinyPixelShop_Florassence/Kitchen.png" id="1_uwrxv"]
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_8cj0n"]
+load_path = "res://.godot/imported/BearSprites.png-34397df5c75c5680486fe5436e0f09e3.ctex"
+
+[node name="Game" type="Node2D" unique_id=1841561942]
+
+[node name="Camera2D" type="Camera2D" parent="." unique_id=617994665]
+anchor_mode = 0
+zoom = Vector2(4, 4)
+
+[node name="BearSprites" type="Sprite2D" parent="." unique_id=446841852]
+position = Vector2(66, 79)
+scale = Vector2(2, 2)
+texture = SubResource("CompressedTexture2D_8cj0n")
+hframes = 2
+vframes = 5
+
+[node name="BearSprites2" type="Sprite2D" parent="." unique_id=1070796795]
+position = Vector2(119, 79)
+scale = Vector2(2, 2)
+texture = SubResource("CompressedTexture2D_8cj0n")
+hframes = 2
+vframes = 5
+
+[node name="BearSprites3" type="Sprite2D" parent="." unique_id=1095478428]
+position = Vector2(161, 79)
+scale = Vector2(2, 2)
+texture = SubResource("CompressedTexture2D_8cj0n")
+hframes = 2
+vframes = 5
+
+[node name="Kitchen" type="Sprite2D" parent="." unique_id=1838607893]
+position = Vector2(120, 67)
+texture = ExtResource("1_uwrxv")
